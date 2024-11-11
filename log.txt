@@ -1,1 +1,42 @@
-2024-11-10T09:30:46.180Z - Test click Resume button after making some moves: pass
+2024-11-10T17:54:30.884Z - Test Player 1 wins with a horizontal line: pass
+2024-11-10T17:54:42.938Z - Test Player 1 wins with a vertical line: pass
+2024-11-10T17:54:53.897Z - Test Player 1 wins with a diagonal line: pass
+2024-11-10T17:55:04.688Z - Player 2 wins when player 1 choose X side: pass
+2024-11-10T17:55:16.127Z - Draw game when choose side is X: pass
+2024-11-10T17:55:32.491Z - Back To Home Screen: pass
+2024-11-10T17:55:43.126Z - Test click Resume button after making some moves: pass
+2024-11-10T17:56:12.292Z - Test click Refight button after a game ends: pass
+2024-11-10T17:56:40.697Z - Test click Restart button : pass
+2024-11-10T18:13:42.365Z - Test Player 1 wins with a horizontal line: fail
+2024-11-10T18:14:44.438Z - Test Player 1 wins with a horizontal line: fail
+2024-11-10T18:15:47.734Z - Test Player 1 wins with a horizontal line: fail
+2024-11-10T18:16:50.263Z - Test Player 1 wins with a horizontal line: fail
+2024-11-10T18:19:13.149Z - Test Player 1 wins with a horizontal line: fail
+2024-11-10T18:20:43.750Z - Test Player 1 wins with a horizontal line: fail
+2024-11-11T04:16:14.595Z - Test Player 1 wins with a horizontal line: fail
+2024-11-11T04:19:56.050Z - Test Player 1 wins with a horizontal line: fail
+2024-11-11T04:23:52.789Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T04:25:02.982Z - Test Player 1 wins with a horizontal line: fail
+2024-11-11T04:26:09.945Z - Test Player 1 wins with a horizontal line: fail
+2024-11-11T04:27:47.944Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T04:31:25.607Z - Test Player 1 wins with a horizontal line: fail
+2024-11-11T04:32:23.473Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T04:35:42.192Z - Test Player 1 wins with a vertical line: pass
+2024-11-11T04:35:57.175Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T04:37:27.805Z - Test Player 1 wins with a vertical line: pass
+2024-11-11T04:37:42.654Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T04:39:30.760Z - Test Player 1 wins with a vertical line: pass
+2024-11-11T04:39:45.757Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T04:43:03.576Z - Test Player 1 wins with a vertical line: pass
+2024-11-11T04:43:18.911Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T04:43:32.992Z - Test Player 1 wins with a diagonal line: fail
+2024-11-11T04:44:45.800Z - Test Player 1 wins with a vertical line: pass
+2024-11-11T04:45:01.328Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T04:45:15.327Z - Test Player 1 wins with a diagonal line: pass
+2024-11-11T04:48:03.562Z - Test Player 1 wins with a vertical line: pass
+2024-11-11T04:48:18.656Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T04:48:32.848Z - Test Player 1 wins with a diagonal line: pass
+2024-11-11T05:01:19.043Z - Test Player 1 wins with a vertical line: pass
+2024-11-11T05:01:33.889Z - Test Player 1 wins with a horizontal line: pass
+2024-11-11T05:01:47.787Z - Test Player 1 wins with a diagonal line: pass
+2024-11-11T05:02:01.324Z - Draw Game When Choose Side X: pass

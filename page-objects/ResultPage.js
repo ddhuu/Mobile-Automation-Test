@@ -3,6 +3,8 @@ const PLAYER_2_WIN_MESSAGE = '//android.view.View[@content-desc="Player 2 win!"]
 const PLAY_AGAIN_BUTTON = '//android.widget.Button[@content-desc="Take me home"]';
 const DRAW_MESSAGE = '//android.view.View[@content-desc="It\'s a draw!"]';
 
+const REFIGHT = '//android.widget.Button[@content-desc="Play again"]';
+
 class ResultPage {
   get player1WinMessage() {
     return $(PLAYER_1_WIN_MESSAGE);
@@ -18,6 +20,10 @@ class ResultPage {
 
   get playAgainButton() {
     return $(PLAY_AGAIN_BUTTON);
+  }
+
+  get refightButton() {
+    return $(REFIGHT);
   }
 
   async isPlayer1WinDisplayed() {
@@ -53,6 +59,11 @@ class ResultPage {
   async clickPlayAgain() {
     await this.playAgainButton.waitForDisplayed({ timeout: 10000 });
     await this.playAgainButton.click();
+  }
+
+  async clickRefight() {
+    await this.refightButton.waitForDisplayed({ timeout: 10000 });
+    await this.refightButton.click();
   }
 }
 

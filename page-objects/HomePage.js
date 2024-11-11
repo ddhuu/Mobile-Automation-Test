@@ -1,4 +1,6 @@
-const THREE_PLAYER_BUTTON = '//android.widget.Button[@content-desc="3x3"]';
+import HelpPopup from "./HelpPopup";
+
+const THREE_PLAYER_BUTTON = '~3x3';
 const FIVE_PLAYER_BUTTON = '//android.widget.Button[@content-desc="5x5"]';
 
 class HomePage {
@@ -21,9 +23,10 @@ class HomePage {
   }
 
   async clickFivePlayerButton() {
-    const button = await $(FIVE_PLAYER_BUTTON);
-    await button.waitForDisplayed();
-    await button.click();
+    $(FIVE_PLAYER_BUTTON).click();
+    // await button.waitForDisplayed();
+    HelpPopup.clickDismiss();
+    $(FIVE_PLAYER_BUTTON).click();
   }
 }
 

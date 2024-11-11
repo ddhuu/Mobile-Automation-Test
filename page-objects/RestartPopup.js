@@ -15,7 +15,7 @@ class RestartPopup {
     await this.resumeButton.click();
   }
 
-  async clickRestart() {
+  async clickRestartButton() {
     await this.restartButton.waitForDisplayed();
     await this.restartButton.click();
   }

@@ -31,7 +31,7 @@ exports.config = {
   },
 
   reporters: [
-    "spec",
+    "allure",
     [
       "allure",
       {
@@ -58,12 +58,5 @@ exports.config = {
         resolve();
       });
     });
-  },
-  afterTest: async function (
-    test,
-    context,
-    { error, result, duration, passed, retries }
-  ) {
-    await browser.takeScreenshot();
-  },
+  }
 };
