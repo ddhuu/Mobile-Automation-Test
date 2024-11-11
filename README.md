@@ -24,7 +24,7 @@
 | UI04 | Draw game when choosing side is X | ✅ PASSED |
 
 ## Summary
-![Test Results Overview](\assests\Result.png)
+![Test Results Overview](./assests/Result.png)
 - Total Test Cases: 13
 - Passed: 13 (100%)
 - Failed: 0 (0%)
